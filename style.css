@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-image: url("image\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title-bar {
+    height: 10em;
+    max-width: 100%;
+
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.gculogo {
+    height: 2em;
+}
+
+.safepro{
+    height: 1em;
+}
+
+.title-bar nav ul{
+    display: flex;
+    flex-direction: row;
+    
+    list-style-type: none;
+}
+
+nav ul li{
+    padding-right: 3em;
+    justify-self: space-between;
+    color: white;
+}
+
+.banner{
+    width: 80%;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banner p{
+    color: white;
+}
+.banner .lbt{
+    font-size: 10em;
+}
+.banner .lbt span{
+    color: #F58220;
+}
+
+.banner .sbt{
+    font-size: 5em;
+    color: #56120F;
+}
